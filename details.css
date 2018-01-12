@@ -1,0 +1,97 @@
+h4 {
+	color: white;
+	font-family: 'Clicker Script', cursive;
+	font-size: 108pt;
+	text-align: center;
+}
+
+.cursivehead {
+	font-family: 'Clicker Script', cursive;
+	font-size: 60pt;
+	text-align: left;
+	margin-left: 50px;
+}
+.gray {
+	position: relative;
+	background: rgba(118, 118, 124, 0.5);
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	bottom: 90px;
+}
+.nav {
+	position: relative;
+	left:70px;
+	top: 200px;
+}
+a.home {
+	font-family: 'Pompiere', cursive;
+	font-size:42pt;
+	color: white;
+	text align: left;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a.venue {
+	font-family: 'Pompiere', cursive;
+	font-size:42pt;
+	color: white;
+	text align: left;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a.details {
+	font-family: 'Pompiere', cursive;
+	font-size:42pt;
+	color: white;
+	text align: center;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a.rsvp {
+	font-family: 'Pompiere', cursive;
+	font-size:42pt;
+	color: white;
+	text align: right;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a.home:hover {
+	font-weight: bold;
+}
+a.details:hover {
+	font-weight: bold;
+}
+a.rsvp:hover {
+	font-weight: bold;
+}
+a.venue:hover {
+	font-weight: bold;
+}
+#googlemaps {
+	font-family: 'Pompiere', cursive;
+	color: white;
+	text align: right;
+	font-size:18pt;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+#ranchpage:hover {
+	font-weight: bold;
+}
+a.gmap:hover {
+	font-weight: bold;
+}
+html {
+	background:url(weddinghands.jpeg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

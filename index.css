@@ -1,0 +1,58 @@
+h1 {
+	color: white;
+	font-family: 'Clicker Script', cursive;
+	font-size: 120pt;
+	text-align: right;
+	margin-right: 50px;
+}
+.cursivehead {
+	font-family: 'Clicker Script', cursive;
+	font-size: 60pt;
+	text-align: left;
+	margin-left: 50px;
+}
+h2 {
+	position: relative;
+	color: white;
+	font-family: 'Clicker Script', cursive;
+	bottom: 200px
+}
+h3 {
+	position: relative;
+	color: white;
+	font-family: 'Clicker Script', cursive;
+	bottom: 230px
+}
+a.one {
+	font-family: 'Pompiere', cursive;
+	color: #C0C0C0;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a.two {
+	font-family: 'Pompiere', cursive;
+	color: #C0C0C0;
+	text align: center;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a.three {
+	font-family: 'Pompiere', cursive;
+	color: #C0C0C0;
+	text align: right;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a:hover {
+	color: white
+}
+html {
+	background:url(https://scontent-dft4-1.xx.fbcdn.net/v/t31.0-8/11165193_10208001597628319_8897226967072609772_o.jpg?oh=4731660c97872591ba2d4e3dc5461a94&oe=5AE39E13) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

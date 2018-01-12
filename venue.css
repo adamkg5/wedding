@@ -1,0 +1,154 @@
+h1 {
+	position: relative;
+	bottom: 50px;
+	color: white;
+	font-family: 'Clicker Script', cursive;
+	font-size: 108pt;
+	text-align: right;
+	margin-right: 110px;
+}
+h2 {
+	position: relative;
+	color: white;
+	font-family: 'Pompiere', cursive;
+	font-size: 42pt;
+	text-align: right;
+	margin-right: 120px;
+	bottom: 140px;
+}
+h3 {
+	position: relative;
+	color: white;
+	font-family: 'Pompiere', cursive;
+	font-size: 42pt;
+	text-align: right;
+	margin-right: 120px;
+	bottom: 170px;
+}
+#ranchpage {
+	position: relative;
+	color: white;
+	font-family: 'Pompiere', cursive;
+	font-size: 40pt;
+	text-align: right;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 0px;
+	
+}
+.cursivehead {
+	font-family: 'Clicker Script', cursive;
+	font-size: 60pt;
+	text-align: left;
+	margin-left: 50px;
+}
+a.gmap {
+	position: absolute;
+	right: 70px;
+	bottom: 50px;	
+	text-decoration: none;
+	color: white;
+}
+#ranchtext {
+	padding-top: 25px;
+	padding-bottom: 30px;
+	padding-left: 60px;
+	padding-right: 15px;
+}
+.ranchpar {
+	position: relative;
+	bottom: 350px;
+	left: 30px;
+	font-family: 'Pompiere', cursive;
+	color: white;
+	font-size:36pt;
+	width: 1200px;
+	margin-left: 80px;
+	background: rgba(118, 118, 124, 0.8);
+	border-radius: 70px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.ranchlink {
+	position: relative;
+	font-family: 'Pompiere', cursive;
+	color: white;
+	font-size:36pt;
+	width: 545px;
+	bottom: 200px;
+	left: 1295px;
+}
+.nav {
+	position: relative;
+	bottom:370px;
+	left:590px;
+}
+a.home {
+	font-family: 'Pompiere', cursive;
+	font-size:42pt;
+	color: #C0C0C0;
+	text align: left;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a.venue {
+	font-family: 'Pompiere', cursive;
+	font-size:42pt;
+	color: #C0C0C0;
+	text align: left;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a.details {
+	font-family: 'Pompiere', cursive;
+	font-size:42pt;
+	color: #C0C0C0;
+	text align: center;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a.rsvp {
+	font-family: 'Pompiere', cursive;
+	font-size:42pt;
+	color: #C0C0C0;
+	text align: right;
+	margin-left: 50px;
+	font-size:42pt;
+	text-decoration: none;
+}
+a.home:hover {
+	color: white;
+}
+a.details:hover {
+	color: white;
+}
+a.rsvp:hover {
+	color: white;
+}
+#googlemaps {
+	font-family: 'Pompiere', cursive;
+	color: white;
+	text align: right;
+	font-size:18pt;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+#ranchpage:hover {
+	font-weight: bold;
+}
+a.gmap:hover {
+	font-weight: bold;
+}
+html {
+	background:url(venuelights.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

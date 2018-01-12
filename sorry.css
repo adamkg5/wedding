@@ -1,0 +1,54 @@
+h5 {
+	position: relative;
+	color: white;
+	font-family: 'Clicker Script', cursive;
+	font-size: 72pt;
+	text-align: center;
+	bottom: 90px;
+	left: 280px;
+}
+.cursivehead {
+	font-family: 'Clicker Script', cursive;
+	font-size: 60pt;
+	text-align: left;
+	margin-left: 50px;
+}
+p {
+	position: relative;
+	width: 500px;
+	font-family: 'Pompiere', cursive;
+	font-size:48pt;
+	color: #C0C0C0;
+	text-decoration: none;
+	left: 1000px;
+	bottom: 130px;
+}
+.nav {
+	position: relative;
+	display: inline;
+	position: relative;
+	width: 200px;
+	bottom: 100px;
+	left:1020px;
+}
+a.home {
+	font-family: 'Pompiere', cursive;
+	font-size:42pt;
+	color: #C0C0C0;
+	text align: left;
+	margin-left: 50px;
+	text-decoration: none;
+}
+
+a.home:hover {
+	color: white;
+}
+
+html {
+
+	background:url(https://www.walldevil.com/wallpapers/a82/wallpaper-white-black-bridal-wreath-desktop-wallbank.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

@@ -7,33 +7,39 @@ h1 {
 	text-align: right;
 	margin-right: 110px;
 }
-h2 {
+.ranchlink {
 	position: relative;
+	width: 600px;
+	height: 220px;
+}
+h2 {
+	position: absolute;
 	color: white;
 	font-family: 'Pompiere', cursive;
-	font-size: 42pt;
-	text-align: right;
-	margin-right: 120px;
-	bottom: 140px;
+	font-size: 48pt;
+	text-align: left;
+	margin-top: 0px;
+	font-weight: normal;
 }
 h3 {
-	position: relative;
+	position: absolute;
 	color: white;
 	font-family: 'Pompiere', cursive;
-	font-size: 42pt;
-	text-align: right;
-	margin-right: 120px;
-	bottom: 170px;
+	font-size: 48pt;
+	text-align: left;
+	margin-top: 75px;
+	font-weight: normal;
 }
 #ranchpage {
-	position: relative;
+	position: absolute;
 	color: white;
 	font-family: 'Pompiere', cursive;
-	font-size: 40pt;
-	text-align: right;
+	font-size: 48pt;
+	text-align: left;
 	text-decoration: none;
-	padding-left: 30px;
-	padding-right: 0px;
+	top: 150px;
+	font-weight: normal;
+	
 	
 }
 .cursivehead {
@@ -57,8 +63,8 @@ a.gmap {
 }
 .ranchpar {
 	position: relative;
-	bottom: 350px;
 	left: 30px;
+	top: 500px;
 	font-family: 'Pompiere', cursive;
 	color: white;
 	font-size:36pt;
@@ -71,18 +77,9 @@ a.gmap {
 	margin-left: 0px;
 	margin-right: 0px;
 }
-.ranchlink {
-	position: relative;
-	font-family: 'Pompiere', cursive;
-	color: white;
-	font-size:36pt;
-	width: 545px;
-	bottom: 200px;
-	left: 1295px;
-}
 .nav {
 	position: relative;
-	bottom:370px;
+	top: 500px;
 	left:590px;
 }
 a.home {

@@ -1,65 +1,46 @@
-h1 {
-	color: white;
-	font-family: 'Clicker Script', cursive;
-	font-size: 120pt;
-	text-align: right;
-	margin-right: 50px;
+html{
+	background: #FCF6F0
 }
-.cursivehead {
+img{ 
+	max-width: 100%; 
+	padding: 0px;
+}
+h1 {
+	color: #3750C1;
 	font-family: 'Clicker Script', cursive;
-	font-size: 60pt;
-	text-align: left;
-	margin-left: 50px;
+	font-size: 16vw;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 0px;
 }
 h2 {
-	position: relative;
-	color: white;
-	font-family: 'Clicker Script', cursive;
-	bottom: 80px
+	font-family: 'Pompiere', cursive;
+	font-size: 6vw;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 0px;
+	color: #C6CFF6;
 }
 h3 {
-	position: relative;
-	color: white;
-	font-family: 'Clicker Script', cursive;
-	bottom: 110px
-}
-a.one {
 	font-family: 'Pompiere', cursive;
-	color: #C0C0C0;
-	margin-left: 50px;
-	font-size:42pt;
-	text-decoration: none;
+	font-size: 6vw;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 0px;
+	color:#C6CFF6;
 }
-a.two {
-	font-family: 'Pompiere', cursive;
-	color: #C0C0C0;
-	text align: center;
-	margin-left: 50px;
-	font-size:42pt;
-	text-decoration: none;
+.navbar{
+	margin: auto;
+	margin-top: 5vw;
+	text-align: center;
 }
-a.three {
-	font-family: 'Pompiere', cursive;
-	color: #C0C0C0;
-	text align: right;
-	margin-left: 50px;
-	font-size:42pt;
+.navbutton{
+	margin: 3vw;
+	color: #3750C1;
 	text-decoration: none;
+	font-family: 'Pompiere', cursive;
+	font-size: 6vw;
 }
 a:hover {
-	color: white
-}
-.bottomblack {
-	position: relative;
-	top: 1000px;
-	background-color: black;
-	width: 5000px
-	height: auto;
-}
-html {
-	background:url(alley.jpg) no-repeat center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	color:#C6CFF6;
 }

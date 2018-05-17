@@ -1,0 +1,42 @@
+html{
+	background: #FCF6F0
+}
+.site{ 
+	width: 32%; 
+}
+.map{
+	margin-top: 5vw;
+	width: 100%;
+}
+p{
+	color: #3750C1;
+	font-family: 'Pompiere', cursive;
+	font-size: 4vw;
+	width: 80%;
+	margin: auto;
+	margin-top: 5vw;
+}
+h1 {
+	color: #3750C1;
+	font-family: 'Clicker Script', cursive;
+	font-size: 10vw;
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 5vw;
+}
+
+.navbar{
+	margin: auto;
+	margin-top: 5vw;
+	text-align: center;
+}
+.navbutton{
+	margin: 2.5vw;
+	color: #3750C1;
+	text-decoration: none;
+	font-family: 'Pompiere', cursive;
+	font-size: 6vw;
+}
+a:hover {
+	color:#C6CFF6;
+}

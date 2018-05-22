@@ -1,0 +1,14 @@
+html{
+	background: #FCF6F0
+}
+h1 {
+	color: #3750C1;
+	font-family: 'Clicker Script', cursive;
+	font-size: 8vw;
+	text-align: center;
+	margin: 0
+}
+img {
+	max-width: 90%;
+	margin: 5%;
+}

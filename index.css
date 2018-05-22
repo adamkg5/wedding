@@ -2,32 +2,40 @@ html{
 	background: #FCF6F0
 }
 img{ 
-	max-width: 100%; 
-	padding: 0px;
+	width: 100%;
+	height: auto;
 }
 h1 {
 	color: #3750C1;
 	font-family: 'Clicker Script', cursive;
-	font-size: 16vw;
-	margin-top: 0px;
+	font-size: 8vw;
 	text-align: center;
-	margin-bottom: 0px;
+	margin: 0
 }
 h2 {
-	font-family: 'Pompiere', cursive;
-	font-size: 6vw;
 	margin-top: 0px;
 	text-align: center;
 	margin-bottom: 0px;
-	color: #C6CFF6;
 }
 h3 {
-	font-family: 'Pompiere', cursive;
-	font-size: 6vw;
 	margin-top: 0px;
 	text-align: center;
 	margin-bottom: 0px;
-	color:#C6CFF6;
+}
+.flower {
+	margin-top: 0px;
+	float: left;
+	width: 70%;
+	
+}
+.info {
+	float: left;
+	width: 30%;
+}
+.whenwhere {
+	color: #C6CFF6;
+	font-family: 'Pompiere', cursive;
+	font-size: 4vw;
 }
 .navbar{
 	margin: auto;
@@ -39,7 +47,18 @@ h3 {
 	color: #3750C1;
 	text-decoration: none;
 	font-family: 'Pompiere', cursive;
+	font-size: 4vw;
+}
+@media screen and (max-width:800px) {
+  .navbutton {
 	font-size: 6vw;
+  }
+  .whenwhere {
+	 font-size: 10vw;
+  }
+  h1 {
+	  font-size: 20vw;
+  }
 }
 a:hover {
 	color:#C6CFF6;

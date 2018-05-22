@@ -31,11 +31,7 @@ label {
 	padding-bottom: 5px;
 }
 /* Use a media query to add a break point at 800px: */
-@media screen and (max-width:800px) {
-  .ice, .form {
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
+
 input[type=text], select {
     width: 90%;
     padding: 12px 16px;
@@ -97,7 +93,18 @@ a.navg {
 	text-decoration: none;
 	margin: 2.5vw;
 }
-
+@media screen and (max-width:800px) {
+  .ice, .form {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  h5 {
+	  font-size: 20vw;
+  }
+  a.navg {
+	  font-size: 5vw;
+	  margin: 2vw;
+  }
+}
 a.home:hover {
 	color: white;
 }

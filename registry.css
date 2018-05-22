@@ -4,16 +4,20 @@ html{
 h1 {
 	color: #3750C1;
 	font-family: 'Clicker Script', cursive;
-	font-size: 10vw;
+	font-size: 8vw;
 	text-align: center;
 	margin: 0
 }
 img {
-	max-width: 90%;
-	margin: 5%;
+	width: 50%;
+	margin: 5% 25%
+}
+.registry {
+	margin: auto;
 }
 .navbar{
 	margin: auto;
+	margin-top: 5vw;
 	text-align: center;
 }
 .navbutton {

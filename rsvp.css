@@ -14,8 +14,8 @@ h5 {
 	font-family: 'Clicker Script', cursive;
 	margin-top: 0px;
 	text-align: center;
-	margin-bottom: 0px;
-	font-size: 11vw;
+	margin-bottom: 3%;
+	font-size: 10vw;
 }
 label {
 	color: #3750C1;
@@ -28,7 +28,7 @@ label {
     min-height: 85%;
 	width: 32%;
 	padding-left: 1.5%;
-	padding-bottom: 5px;
+	padding-bottom: 2%;
 }
 /* Use a media query to add a break point at 800px: */
 

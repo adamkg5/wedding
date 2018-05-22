@@ -10,12 +10,17 @@ h1 {
 	font-family: 'Clicker Script', cursive;
 	font-size: 8vw;
 	text-align: center;
-	margin: 0
+	margin-top: 0;
+	margin-bottom: 12%;
 }
 h2 {
 	margin-top: 0px;
 	text-align: center;
 	margin-bottom: 0px;
+}
+.cursivehead {
+	font-family: 'Pompiere', cursive;
+	color: #C6CFF6;
 }
 h3 {
 	margin-top: 0px;
@@ -31,11 +36,12 @@ h3 {
 .info {
 	float: left;
 	width: 30%;
+	margin-bottom: 3%;
 }
 .whenwhere {
 	color: #C6CFF6;
 	font-family: 'Pompiere', cursive;
-	font-size: 4vw;
+	font-size: 3.5vw;
 }
 .navbar{
 	margin: auto;
@@ -50,6 +56,15 @@ h3 {
 	font-size: 4vw;
 }
 @media screen and (max-width:800px) {
+	.flower {
+		width: 100%;
+		margin-bottom: 0
+	}
+	.info {
+		width: 100%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
   .navbutton {
 	font-size: 6vw;
   }
@@ -57,7 +72,8 @@ h3 {
 	 font-size: 10vw;
   }
   h1 {
-	  font-size: 20vw;
+	  font-size: 18vw;
+	  margin-bottom: 5%;
   }
 }
 a:hover {

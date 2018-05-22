@@ -7,9 +7,10 @@ html{
 }
 .map{
 	float: left;
-	margin-top: 3vw;
-	width: 43%;
-	margin-left: 4%;
+	margin-top: 4vw;
+	width: 40%;
+	margin-left: 2%;
+	margin-bottom: 5vw;
 }
 
 p{
@@ -17,8 +18,9 @@ p{
 	font-family: 'Pompiere', cursive;
 	font-size: 2vw;
 	width: 50%;
-	margin: auto;
-	margin-top: 2vw;
+	margin-left: 2%;
+	margin-top: 3vw;
+	margin-bottom: 4vw;
 	float: left;
 }
 h1 {
@@ -29,13 +31,19 @@ h1 {
 	text-align: center;
 	margin-bottom: 5vw;
 }
+.navbar{
+	margin: auto;
+	margin-top: 1vw;
+	text-align: center;
+}
 .navbutton{
 	margin: 2.5vw;
 	color: #3750C1;
 	text-decoration: none;
 	font-family: 'Pompiere', cursive;
-	font-size: 2vw;
+	font-size: 4vw;
 }
+
 @media screen and (max-width:800px) {
   .site {
     margin-bottom: 10px;
@@ -54,11 +62,9 @@ h1 {
   .navbutton {
 	  font-size: 6vw;
   }
-}
-.navbar{
-	margin: auto;
-	margin-top: 5vw;
-	text-align: center;
+  h1 {
+	  font-size: 12vw;
+  }
 }
 
 a:hover {

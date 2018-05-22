@@ -1,9 +1,13 @@
 html{
 	background: #FCF6F0;
 }
+.ice{
+	float: left;
+	width: 66%;
+}
 img{ 
-	max-width: 100%; 
-	padding: 0px;
+	max-width: 100%;
+	max-height: auto;
 }
 h5 {
 	color: #3750C1;
@@ -11,31 +15,40 @@ h5 {
 	margin-top: 0px;
 	text-align: center;
 	margin-bottom: 0px;
-	font-size: 10vw;
+	font-size: 11vw;
 }
 label {
 	color: #3750C1;
 	font-family: 'Pompiere', cursive;
 	font-size:30pt;
+	padding-left: 5%;
 }
 .form {
-    margin: auto;
-    min-height: 100%;
-	width: 500px;
+    float: left;
+    min-height: 85%;
+	width: 32%;
+	padding-left: 1.5%;
+	padding-bottom: 5px;
+}
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .ice, .form {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
 input[type=text], select {
-    width: 100%;
+    width: 90%;
     padding: 12px 16px;
-    margin: 8px 0;
+    margin: 8px 3%;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
 input[type=number], select {
-    width: 100%;
+    width: 90%;
     padding: 12px 16px;
-    margin: 8px 0;
+    margin: 8px 3%;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -43,11 +56,11 @@ input[type=number], select {
 }
 
 input[type=submit] {
-    width: 100%;
+    width: 90%;
     background: #C6CFF6;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 8px 3%;
 	margin-top: 15px;
     border-radius: 4px;
     cursor: pointer;
@@ -73,16 +86,16 @@ div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active
 box-shadow: none;
 }
 #nav {
-	width: 450px;
+	width: 80%;
 	margin: auto;
-	margin-top: 50px;
+	text-align: center;
 }
 a.navg {
 	font-family: 'Pompiere', cursive;
 	color: #3750C1;
-	font-size:42pt;
+	font-size:4vw;
 	text-decoration: none;
-	margin: 20px;
+	margin: 2.5vw;
 }
 
 a.home:hover {
@@ -101,7 +114,7 @@ a.venue:hover {
 .container {
     display: block;
     position: relative;
-    padding-left: 50px;
+    padding-left: 15%;
     margin-bottom: 16px;
     cursor: pointer;
     font-size: 22px;
@@ -130,6 +143,7 @@ a.venue:hover {
 	border-style: solid;
 	border-width: 2px;
 	border-color: #3750C1;
+	margin-left: 7%;
 }
 
 /* On mouse-over, add a grey background color */

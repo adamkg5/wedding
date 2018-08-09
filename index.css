@@ -5,6 +5,10 @@ img{
 	width: 100%;
 	height: auto;
 }
+head {
+	margin-bottom: 0;
+}
+
 h1 {
 	color: #3750C1;
 	font-family: 'Clicker Script', cursive;
@@ -12,11 +16,13 @@ h1 {
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 12%;
+	text-shadow: 0.1vw 0.1vw 0.3vw #717882;
 }
 h2 {
 	margin-top: 0px;
 	text-align: center;
 	margin-bottom: 0px;
+	text-shadow: 0.1vw 0.1vw 0.4vw #9b9088;
 }
 .cursivehead {
 	font-family: 'Pompiere', cursive;
@@ -26,26 +32,28 @@ h3 {
 	margin-top: 0px;
 	text-align: center;
 	margin-bottom: 0px;
+	text-shadow: 0.1vw 0.1vw 0.4vw #9b9088;
 }
 .flower {
 	margin-top: 0px;
 	float: left;
-	width: 70%;
+	width: 68%;
 	
 }
 .info {
 	float: left;
-	width: 30%;
-	margin-bottom: 3%;
+	width: 32%;
+	margin-bottom: 0;
 }
 .whenwhere {
 	color: #C6CFF6;
 	font-family: 'Pompiere', cursive;
 	font-size: 3.5vw;
 }
-.navbar{
-	margin: auto;
-	margin-top: 5vw;
+.navbar {
+	margin-top: 0.5vw;
+	float: left;
+	width: 100%;
 	text-align: center;
 }
 .navbutton{
@@ -63,17 +71,28 @@ h3 {
 	.info {
 		width: 100%;
 		margin-top: 5%;
-		margin-bottom: 8%;
+		margin-bottom: 5%;
 	}
   .navbutton {
 	font-size: 6vw;
   }
   .whenwhere {
-	 font-size: 10vw;
+	 font-size: 8vw;
+	 margin-top: 3%;
   }
   h1 {
-	  font-size: 18vw;
-	  margin-bottom: 5%;
+	  font-size: 16vw;
+	  margin-bottom: 3%;
+	  line-height: 0.9;
+	  text-shadow: 0.4vw 0.4vw 0.5vw #717882;
+  }
+  h2 {
+	  text-shadow: 0.1vw 0.1vw 0.7vw #717882;
+	  line-height: 80%;
+  }
+   h3 {
+	  text-shadow: 0.1vw 0.1vw 0.7vw #717882;
+	  line-height: 80%;
   }
 }
 a:hover {

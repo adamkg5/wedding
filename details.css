@@ -1,0 +1,132 @@
+html{
+	background: #FCF6F0
+}
+img{ 
+	width: 100%;
+	height: auto;
+}
+.truck{
+	width: 100%;
+	position:relative;
+}
+.imgtext {
+	position: absolute;
+	color: #3750C1;
+	font-family: 'Clicker Script', cursive;
+	font-weight: bold;
+	font-size: 6vw;
+	text-shadow: 0.2vw 0.2vw 0.3vw #3e444c;
+	top: 8%;
+	left: 4%;
+}
+.rowone {
+	margin-top: 2vw;
+	position: relative;
+	width: 100%;
+	overflow: auto;
+}
+.infoleft {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	float: left;
+	width: 17%;
+	padding-top: 7%;
+}
+.inforight{
+	position: absolute;
+	left: 17%;
+	top: 0;
+	bottom: 0;
+	width: 49.66%;
+	text-align: left;
+	padding-top: 7%;
+}
+.trucktwo {
+	float: right;
+	width: 33.33%;
+}
+.textleft {
+	position: absolute;
+	text-align: right;
+	right: 10%;
+	color: #3750C1;
+	font-family: 'Pompiere', cursive;
+	font-size: 5vw;
+	line-height: 160%;
+}
+.textright {
+	position: absolute;
+	left: 3%;
+	color: #3750C1;
+	font-family: 'Pompiere', cursive;
+	font-size: 5vw;
+	line-height: 160%;
+}
+a {
+	color: #3750C1;
+	text-decoration: none;
+}
+.navbar {
+	text-align: center;
+}
+
+.navbutton{
+	margin: 2.5vw;
+	color: #3750C1;
+	text-decoration: none;
+	font-family: 'Pompiere', cursive;
+	font-size: 4vw;
+}
+@media screen and (max-width:800px) {
+	.navbutton {
+		font-size: 6vw;
+	}
+	.rowone {
+		margin-top: 2vw;
+		position: relative;
+		width: 100%;
+		overflow: auto;
+	}
+	.infoleft {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		float: left;
+		width: 17%;
+		padding-top: 7%;
+	}
+	.inforight{
+		position: absolute;
+		left: 17%;
+		top: 0;
+		bottom: 0;
+		width: 49.66%;
+		text-align: left;
+		padding-top: 7%;
+	}
+	.trucktwo {
+		float: right;
+		width: 33.33%;
+	}
+	.textleft {
+		position: absolute;
+		text-align: right;
+		right: 13%;
+		color: #3750C1;
+		font-family: 'Pompiere', cursive;
+		font-size: 5vw;
+		line-height: 180%;
+	}
+	.textright {
+		position: absolute;
+		left: 2%;
+		color: #3750C1;
+		font-family: 'Pompiere', cursive;
+		font-size: 5vw;
+		line-height: 180%;
+	}
+}
+a:hover {
+	color:#C6CFF6;
+}

@@ -1,0 +1,26 @@
+html{
+	background: #FCF6F0;
+}
+h1 {
+	color: #3750C1;
+	font-family: 'Clicker Script', cursive;
+	font-size: 12vw;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 12%;
+}
+h2 {
+	margin-top: 0px;
+	text-align: center;
+	margin-bottom: 0px;
+	font-family: 'Pompiere', cursive;
+	color: #C6CFF6;
+	font-size: 5vw;
+}
+.navbutton {
+	font-family: 'Pompiere', cursive;
+	color: #3750C1;
+	font-size:4vw;
+	text-decoration: none;
+	margin: 2.5vw;
+}

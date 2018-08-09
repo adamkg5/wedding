@@ -9,35 +9,35 @@
 	</div>
 	<body>
 		<div class=form>
-			<form action="sorry.html">
+			<form action="rsvpform.php" method="post">
 				<h5>RSVP</h5>
 				<label for="fname">First Name</label>
-				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+				<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 				<label for="lname">Last Name</label>
-				<input type="text" id="lname" name="lastname" placeholder="Your last name..">				
+				<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>				
 				<label> Will You be Attending? </label>
 				<label class="container">Yes
-					<input type="radio" name="radio">
+					<input type="radio" name="radio" value="yes">
 					<span class="checkmark"></span>
 				</label>
 				<label class="container">No
-					<input type="radio" name="radio">
+					<input type="radio" name="radio" value="no">
 					<span class="checkmark"></span>
 				</label>
 							 		
 				<label for="hcount">Number of People Attending</label>
-				<input type="number" id="fname" name="headcount" placeholder="Number Attending (Including Yourself)" min=1>
+				<input type="number" id="fname" name="headcount" placeholder="Number Attending (Including Yourself)" min=1 required>
 				<label for="email">Email Address</label>
-				<input type="text" id="email" name="email_add" placeholder="Your email..">
+				<input type="text" id="email" name="email" placeholder="Your email.." required>
 				<input type="submit" value="Submit">
 			</form>
 		</div>	
 	</body>
-	<div id=nav>
-		<a class=navg href="index.html">Home</a>
-		<a class=navg href="venue.html">Venue</a>
-		<a class=navg href="details.html">Details</a>
-		<a class=navg href="registry.html">Registry</a>
-		<a class=navg href="photos.html">Photos</a>
+	<div class=navbar>
+		<a class=navbutton href="index.html">Home</a>
+		<a class=navbutton href="venue.html">Venue</a>
+		<a class=navbutton href="details2.html">Details</a>
+		<a class=navbutton href="registry.html">Registry</a>
+		<a class=navbutton href="photos.html">Photos</a>
 	</div>
 </html>

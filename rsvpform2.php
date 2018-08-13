@@ -36,23 +36,18 @@ else {
 <h1>Thanks <?php echo $_POST["firstname"] . '!'; ?></h1>
 
 <h2>
+
 <?php
 if ($attending=="yes") {
-	echo "For more information about our big day, please visit the details page or feel free to contact us at ally_and_adam@goinggreenwood2018.com for any questions. We can't wait to see you!";
+	echo "We look forward to seeing you!<br>";
 }
 if ($attending=="no") {
-	echo "Sorry we will miss you! We certainly understand and we appreciate your reply. If you would like to send well wishes to the happy couple, you can contact us at ally_and_adam@goinggreenwood2018.com";
+	echo "Sorry we will miss you!<br>";
 }
 ?>
-
+<a class=navbutton href="index.html">Home</a>
 </h2>
-<div class=navbar>
-	<a class=navbutton href="index.html">Home</a>
-	<a class=navbutton href="venue.html">Venue</a>
-	<a class=navbutton href="details2.html">Details</a>
-	<a class=navbutton href="registry.html">Registry</a>
-	<a class=navbutton href="photos.html">Photos</a>
-</div>
+
 
 
 </body>
